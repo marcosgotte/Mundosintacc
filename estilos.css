@@ -1,0 +1,89 @@
+import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;*/
+*{
+    margin: auto;
+    padding: auto;
+}
+
+
+.jumbotron{
+    background-image: url(./imagenes/galletacorazon.svg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin: 0;
+    border-radius: 0;
+}
+
+h1{
+    color: black;
+    text-shadow: 0 0 5px #222;
+    font-size: 45px;
+}
+
+.jumbotron p{
+    color: black;
+    font-size: 25px;
+}
+
+h2{
+    color: lightyellow;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.n-left{
+    height: 500px;
+    background-color: mediumorchid;
+}
+
+.n-left p{
+    color: black;
+    padding: 10px;
+    text-align: justify;
+}
+
+h3{
+    color: black;
+    font-family: fantasy;
+}
+.n-right{
+    height: 500px;
+    background-color:orchid;
+}
+
+.n-right img{
+    width: 80%;
+}
+
+navbar-expand-md{
+    margin: auto;
+    padding: auto;
+} 
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D7DBDD;   
+}
+
+main {
+    height: 200%;
+    width: 100%;
+    background-color: #F8BBD0;
+    background-size: cover;      
+}
+
+
+.class__aside{
+    height: 300px;
+    width: auto;
+    background-image: url(./imagenes/undraw_designer_girl_re_h54c.svg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    background-color: thistle;
+}
