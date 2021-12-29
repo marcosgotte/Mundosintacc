@@ -67,7 +67,7 @@ navbar-expand-md{
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #D7DBDD;   
+    background-color: #f6baf8;   
 }
 
 main {
@@ -86,4 +86,14 @@ main {
     background-size: 300px;
     background-position: center;
     background-color: thistle;
+}
+
+.main{
+    background-image: url(./imagenes/corazondecocina.png);
+    width: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+
 }
