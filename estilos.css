@@ -88,12 +88,3 @@ main {
     background-color: thistle;
 }
 
-.main{
-    background-image: url(./imagenes/corazondecocina.png);
-    width: 300px;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: center;
-
-}
