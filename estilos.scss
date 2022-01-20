@@ -28,3 +28,12 @@ body{
 }
  /* no se porque no me toma esta parte, que estoy aplicando mal acá? */
 @import footer
+
+
+@mixin sizes($width, $height, $color-secundario) {
+    height: $height;
+    width: $width;
+    background-color: $color-secundario;
+}
+
+/*y esta parte no entendi si lo hago aca o en estilos.css.map */
