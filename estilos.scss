@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+$color-primario: rgb(250, 137, 250);
+$color-secundario: burlywood;
+$color-terciario: rgb(114, 20, 72);
+$color-cuarto: rgb(131, 27, 172);
+
+$letra-chica: 20px;
+$letra-mediana: 45px;
+$letra-grande: 85px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: $color-secundario;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    h1{
+        color: $color-primario;
+        text-align: center;
+    }
+}
+ /* no se porque no me toma esta parte, que estoy aplicando mal acá? */
+@import footer
