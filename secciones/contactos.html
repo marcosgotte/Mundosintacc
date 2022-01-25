@@ -59,36 +59,32 @@
   <aside class=" class__aside">
     <h4>toda critica es bienvenida para mejorar</h4>
     <img src="../imagenes/undraw_designer_girl_re_h54c.svg" alt="computadora" height="250px">
-  </aside>
+  </aside> 
 
 
-<!--creo que aca quiero poner para que se contacten por mail pero toque algo y desacomode todo, ademas que trato de usar el css pero no me lo toma-->
-<!--aca requiero mucho de tu opinion sinceramente con ese tema-->
+   <small>Escriba su mensaje</small>
+<div class="wrapper centered">
+  <article class="letter">
+    <div class="side">
+      <h1>contactanos</h1>
+      <p>
+        <textarea placeholder="su mensaje"></textarea>
+      </p>
+    </div>
+    <div class="side">
+      <p>
+        <input type="text" placeholder="escriba su nombre" >
+      </p>
 
-
-  <div class="container">
-    <div class="col-md-6 pane">
- <div class="col-md-6">
-     <div class="alert alert-light"><h4>Comentarios</h4></div>
-     </div>
-     <div id="result">
-   </div>
-   
-   <div class="col-md-8">
-       <form>
-           <div class="form-group">
-     <label>Nombre</label>
-     <input class="form-control" type="text"  id="name">
-     </div>
-
-     <div class="form-group">
-     <label>Comentario</label>
-     <textarea id="comment" class="form-control"></textarea></label>
-     </div>
-     <button type="button" class="btn btn-primary" onclick="commentBox();">Enviar</button>
-       </form>
-   </div>
-
+      <p>
+        <button id="sendLetter">Enviar</button>
+      </p>
+    </div>
+  </article>
+  <div class="envelope front"></div>
+  <div class="envelope back"></div>
+</div>
+<p class="result-message centered">Gracias por su mensaje</p>
 
   </main>
 
@@ -110,6 +106,8 @@
 <script>
     AOS.init();
   </script>
+
+
 
 </body>
 
