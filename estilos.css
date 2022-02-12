@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,20 +18,16 @@ body h1 {
 }
 /*# sourceMappingURL=estilos.css.map */
 
-
-.img:hover {
-  transform: scale(1.05);
-}
-
-
 .gallery-container{
   width: 100%;
   margin: 100px auto;
+  
   display: grid;
-  grid-area:unset;
-  grid-template-columns: repeat(3,3fr);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,300px);
 }
+
+.gallery-container .gallery-card{overflow: hidden};
 
 .gallery-container .gallery-card a{
   width: 100%;
@@ -38,9 +35,14 @@ body h1 {
 }
 
 .gallery-container .gallery-card a > img {
-  width: 300px;
-  height: 500px;
-  object-fit:cover;
+  width: 100%;
+  height: 95%;
+  object-fit:contain;
+  transition: 0.5s;
+}
+
+.gallery-container .gallery-card a > img:hover{
+  transform: scale(1.25) ;
 }
 
 
