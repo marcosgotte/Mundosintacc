@@ -13,10 +13,16 @@ body {
 }
 
 body h1 {
-  color: #fa89fa;
+  color: black;
   text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */
+
+.jumbotron {
+  background-image: url(./imagenes/low-poly-grid-haikei\ \(1\).svg);
+  background-size: cover;
+  background-position: center;
+}
 
 .gallery-container{
   width: 100%;
